@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "id": "8af2",
+      "nombre": "sarah",
+      "email": "sarah@riwi.com",
+      "password": "1234",
+      "rol": "bibliotecario"
+    },
+    {
+      "id": "45f3",
+      "nombre": "jose",
+      "email": "jose@riwi.com",
+      "password": "1234",
+      "rol": "visitante"
+    }
+  ],
+  "libros": [
+    {
+      "id": "b441",
+      "titulo": "hershey",
+      "autor": "sarah",
+      "disponible": false
+    }
+  ],
+  "reservas": [
+    {
+      "id": "15e9",
+      "usuarioId": "45f3",
+      "libroId": "b441",
+      "fecha": "2025-07-13T23:35:20.972Z"
+    }
+  ]
+}
